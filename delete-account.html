@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PillPal — Delete your account &amp; data</title>
+  <meta name="description" content="How to permanently delete your PillPal account and all associated data." />
+  <style>
+    :root { --teal:#0EA5A4; --teal-dark:#0D9488; --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#f8fafc; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink); background: var(--bg); line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .header {
+      background: linear-gradient(135deg, var(--teal), var(--teal-dark));
+      color: #fff; padding: 40px 20px 32px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .pill {
+      width: 40px; height: 40px; border-radius: 12px; background: rgba(255,255,255,.18);
+      display: grid; place-items: center; font-size: 22px;
+    }
+    .header h1 { margin: 18px 0 4px; font-size: 1.9rem; letter-spacing: -.5px; }
+    .header p { margin: 0; opacity: .9; }
+    main { max-width: 720px; margin: -16px auto 64px; padding: 0 20px; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 28px 28px 8px; }
+    h2 { font-size: 1.15rem; margin: 28px 0 8px; color: var(--ink); }
+    h2:first-child { margin-top: 8px; }
+    p, li { color: #1e293b; }
+    .muted { color: var(--muted); }
+    ol, ul { padding-left: 20px; }
+    li { margin: 6px 0; }
+    a { color: var(--teal-dark); }
+    code { background: #eef2f6; padding: 1px 6px; border-radius: 5px; font-size: .92em; }
+    footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 0 20px 40px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="wrap">
+      <div class="brand">
+        <div class="pill">💊</div>
+        <strong>PillPal</strong>
+      </div>
+      <h1>Delete your account &amp; data</h1>
+      <p>How to permanently remove your PillPal account and all of its data.</p>
+    </div>
+  </div>
+
+  <main>
+    <div class="card">
+      <p>This page applies to the PillPal app (<code>com.pillpal.pillpal_mobile</code>).
+      You can delete your account and all associated data in either of the following ways.</p>
+
+      <h2>Option 1 — delete from inside the app (fastest)</h2>
+      <ol>
+        <li>Open <strong>PillPal</strong> and sign in.</li>
+        <li>Go to <strong>Profile → Delete account</strong>.</li>
+        <li>Confirm. Your account and all data are deleted immediately and cannot be undone.</li>
+      </ol>
+
+      <h2>Option 2 — request deletion by email (if you’ve uninstalled the app)</h2>
+      <p>Email <a href="mailto:pillpal54@gmail.com?subject=Delete%20my%20account">pillpal54@gmail.com</a>
+      from the address you signed up with, with the subject <strong>“Delete my account”</strong>.
+      We verify ownership of the email and complete the deletion within 30 days
+      (typically within a few days).</p>
+
+      <h2>What gets deleted</h2>
+      <ul>
+        <li>Your account (email / Google identity) and profile.</li>
+        <li>All medicines, schedules, reminder times, and dose-history logs.</li>
+      </ul>
+      <p class="muted">Deletion is permanent. We do not keep a backup of your health data
+      after deletion. Limited records required for security, fraud prevention, or legal
+      compliance may be retained as described in our
+      <a href="index.html">privacy policy</a>.</p>
+
+      <h2>Contact</h2>
+      <p>Questions or data requests: <a href="mailto:pillpal54@gmail.com">pillpal54@gmail.com</a></p>
+    </div>
+    <footer>© 2026 PillPal · <a href="index.html">Privacy policy</a></footer>
+  </main>
+</body>
+</html>
